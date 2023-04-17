@@ -51,7 +51,7 @@ function App() {
           speed={0.05}
           onClick={() => ref.current.scrollTo(3)}
         >
-          <h2>Welcome to my website</h2>
+          <h2>Parallax Effect</h2>
         </ParallaxLayer>
 
         <ParallaxLayer
@@ -59,7 +59,7 @@ function App() {
           speed={2}
           onClick={() => ref.current.scrollTo(0)}
         >
-          <h2>Hi Mom!</h2>
+          <h2>Parallax Effect Demo</h2>
         </ParallaxLayer>
       </Parallax>
     </div>
